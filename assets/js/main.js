@@ -4,11 +4,11 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 100) {
-          $(".navbar").css("background" , "black");
+          $(".top-nav").css("background" , "black");
         }
   
         else{
-            $(".navbar").css("background" , "none");  	
+            $(".top-nav").css("background" , "none");  	
         }
     })
 })
@@ -35,23 +35,4 @@ function topFunction() {
 }
 
 
-    // var just = document.getElementsByTagName('just')[0];
-    // just.innerHTML = '<span>' + just.innerHTML.split('').join('</span><span>') + '</span>';
-
-//     const myBtn = document.getElementById("myBtn");
-//     window.onscroll = function() {
-//          scrollFunction()
-//     };
-
-//     function scrollFunction() {
-//         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//              myBtn.style.display = "block";
-//         } else {
-//              myBtn.style.display = "none";
-//         }
-//     }
-// // Bind your button click, scroll direction and effect speed
-//     document.getElementById("myBtn").onclick = function() {
-//   scrollTo(0, 8000); // it will take 8 seconds to reach to top.
-
-//     }
+ 
